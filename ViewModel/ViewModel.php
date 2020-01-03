@@ -7,6 +7,6 @@ class ViewModel implements ArgumentInterface
 {
     public function getPageTitle()
     {
-        return "M.V.V.M Module Output from Method.";
+        return "View Module Output.";
     }
 }
