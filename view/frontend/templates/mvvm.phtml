@@ -1,0 +1,10 @@
+<?php
+/** @var \Magento\Framework\View\Element\Template $block */
+
+/** @var \Syedzaidi\Mvvm\ViewModel\MyNewViewModel $viewModel */
+
+$viewModel = $block->getData('viewModel');
+
+
+?>
+<h1><?= $viewModel->getPageTitle(); ?></h1>
