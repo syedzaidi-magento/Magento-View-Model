@@ -4,7 +4,7 @@
         <referenceContainer name="content">
             <block name="mvvm.viewmodel" template="Syedzaidi_Mvvm::mvvm.phtml">
                 <arguments>
-                    <argument name="viewModel" xsi:type="object">Syedzaidi\Mvvm\ViewModel\MyNewViewModel</argument>
+                    <argument name="viewModel" xsi:type="object">Syedzaidi\Mvvm\ViewModel\ViewModel</argument>
                 </arguments>
             </block>
         </referenceContainer>
